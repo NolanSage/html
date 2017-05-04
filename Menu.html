@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html>
+
+    <link href="restaurantStyles.css" 
+      rel="stylesheet" 
+      type="text/css" />
+
     <head>
+        <div class="header">
         <title>Menu</title>
-      <div align="center">  <h1><b>Bloaty's Pizza Hog</h1></b><br>
-     </div> <hr>
+      <div align="center">
+            <h1><b>Bloaty's Pizza Hog</h1></b><br>
+    </div> </div> <hr>
     
 
 <a href="RestaurantLab.html">Home</a> <a href="Menu.html">Menu</a> <a href="Bloatycontact.html">Contact Us</a><br><hr>
+
+<style>
+
+div.transbox {
+    margin: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    }
+
+body {
+    background-image: url("images/appetizer.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+}</style>
+
     </head>
 
-   <body><div align="center">
+   <body>
+       <div class="background">
+  <div class="transbox">
+      <div align="center">
        <table>
               <tr>
         <td>PIZZA<br>Sauce Included<br>$5<br></td>
@@ -26,13 +59,18 @@
         <td>CRUSTS<br>Extra crusty<br>$1</td>
         <td>DIPPIN' SAUCE<br>It's red<br>$1</td>
     </tr>
-    </table>
 
-<footer>
+   </table>
+
+   </div></div></div>
+
+     <div align="center">
+
+<div class="footer"><strong>
 <hr>
 <p>3712224 Cleveland Ave NW, Canton, OH 44709<br></p>
 <p>(330) 333-3333</p>
-</footer>
+</strong></div>
 
     </div></body>
 </html>
