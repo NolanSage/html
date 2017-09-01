@@ -34,7 +34,8 @@ body {
 
 .header { 
     background-color: grey;
-    color: white;
+    color:pink;
+    font-family:"Impact"
     }
 
 .footer {
